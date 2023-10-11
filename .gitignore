@@ -1,0 +1,18 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore any log files
+*.log
+
+# Ignore the uploads directory in the backend
+backend/uploads/
+
+# Ignore any environment config files which might contain secrets
+.env
+
+# Ignore cache and local config folders/files
+.cache/
+*.swp
+*.swo
+.DS_Store
+.vscode/
